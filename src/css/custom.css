@@ -6,25 +6,78 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #3ddc84; /* Android green */
+  --ifm-color-primary-dark: #2bb673;
+  --ifm-color-primary-darker: #249961;
+  --ifm-color-primary-darkest: #1c7a4f;
+  --ifm-color-primary-light: #57e39d;
+  --ifm-color-primary-lighter: #6be9af;
+  --ifm-color-primary-lightest: #81f2c3;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(61, 220, 132, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode adjustments for readability */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #3ddc84; /* Vibrant Android green */
+  --ifm-color-primary-dark: #32c675;
+  --ifm-color-primary-darker: #2aab64;
+  --ifm-color-primary-darkest: #218e53;
+  --ifm-color-primary-light: #57e39d;
+  --ifm-color-primary-lighter: #6be9af;
+  --ifm-color-primary-lightest: #81f2c3;
+  --docusaurus-highlighted-code-line-bg: rgba(61, 220, 132, 0.2);
+}
+
+/* Custom button styling */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+}
+
+/* Link hover effect */
+a:hover {
+  color: var(--ifm-color-primary-light);
+}
+
+/* Headings customization */
+h1, h2, h3 {
+  color: var(--ifm-color-primary);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar custom height and shadow */
+.navbar {
+  height: 70px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Code block customization */
+.codeBlockContainer {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #2b2b2b;
+}
+
+/* Footer styling */
+.footer {
+  background-color: var(--ifm-color-primary-darkest);
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.footer a {
+  color: var(--ifm-color-primary-lightest);
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer a:hover {
+  color: var(--ifm-color-primary-light);
 }
