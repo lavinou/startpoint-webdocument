@@ -1,47 +1,47 @@
 ---
 sidebar_position: 1
+title: StartPoint
 ---
 
-# Tutorial Intro
+# Welcome to StartPoint Documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+StartPoint is a composable and extensible framework designed to simplify application development by providing a structured way to manage navigation, configuration, and plugin integration. The core module acts as the foundation for building scalable and customizable applications.
 
-## Getting Started
+## What is StartPoint?
 
-Get started by **creating a new site**.
+StartPoint enables developers to create modular and extensible applications using a plugin-based architecture. It leverages Jetpack Compose and provides:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+- **Simplified Navigation**: Manage app navigation with `NavHostController`.
+- **Plugin System**: Extend application features dynamically.
+- **Configuration Management**: Easily configure and install components with DSL blocks.
 
-### What you'll need
+## Why Use StartPoint?
+- **Composable Architecture**: Fully integrates with Jetpack Compose.
+- **Extensibility**: Build custom plugins to extend app functionality.
+- **Ease of Use**: Provides a clean API for managing app state and navigation.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Installation
 
-## Generate a new site
+To get started with StartPoint, follow the [installation guide](./startpoint-getting-started/installation-guide.md).
 
-Generate a new Docusaurus site using the **classic template**.
+## Quick Example
 
-The classic template will automatically be added to your project after you run the command:
+```kotlin
+val startPoint = rememberStartPoint {
+    // Configure StartPoint plugins or attributes here
+}
 
-```bash
-npm init docusaurus@latest my-website classic
+StartPointScaffold(startPoint = startPoint) {
+    // Main application content goes here
+}
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Next Steps
+- [Setup and Installation](./startpoint-getting-started/installation-guide.md)
+- [Plugin System](./plugin_system)
+- [Navigation](./navigation)
+- [API Reference](./api_reference)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Explore the full documentation to dive deeper into StartPoint's capabilities.
 
-## Start your site
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
