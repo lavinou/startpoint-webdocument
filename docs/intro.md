@@ -2,8 +2,9 @@
 sidebar_position: 1
 title: StartPoint
 ---
+[![](https://jitpack.io/v/lavinou/startpoint-android.svg)](https://jitpack.io/#lavinou/startpoint-android)
 
-# Welcome to StartPoint Documentation
+# Welcome to StartPoint
 
 StartPoint is a composable and extensible framework designed to simplify application development by providing a structured way to manage navigation, configuration, and plugin integration. The core module acts as the foundation for building scalable and customizable applications.
 
@@ -38,9 +39,9 @@ StartPointScaffold(startPoint = startPoint) {
 
 ## Next Steps
 - [Setup and Installation](./startpoint-getting-started/installation-guide.md)
-- [Plugin System](./plugin_system)
-- [Navigation](./navigation)
-- [API Reference](./api_reference)
+- [Plugin System](./startpoint-getting-started/installation-guide.md)
+- [Navigation](./startpoint-getting-started/installation-guide.md)
+- [API Reference](./startpoint-getting-started/installation-guide.md)
 
 Explore the full documentation to dive deeper into StartPoint's capabilities.
 
