@@ -10,13 +10,14 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://startpoint.example.com',
+  url: 'https://lavinou.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/startpoint-webdocument/',
 
   // GitHub pages deployment config.
-  organizationName: 'startpoint', // Your GitHub org/user name.
-  projectName: 'startpoint', // Your repo name.
+  organizationName: 'lavinou', // Your GitHub org/user name.
+  projectName: 'startpoint-android', // Your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

@@ -5,7 +5,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/startpoint-webdocument/docs/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/lavinou/startpoint-android/tree/main/docs/docs/intro.md",
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Tutorial - Basics",
-    "permalink": "/docs/category/tutorial---basics"
+    "permalink": "/startpoint-webdocument/docs/category/tutorial---basics"
   }
 }

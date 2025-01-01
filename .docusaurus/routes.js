@@ -3,190 +3,190 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/startpoint-webdocument/__docusaurus/debug',
+    component: ComponentCreator('/startpoint-webdocument/__docusaurus/debug', 'd6b'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/startpoint-webdocument/__docusaurus/debug/config',
+    component: ComponentCreator('/startpoint-webdocument/__docusaurus/debug/config', 'eb6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/startpoint-webdocument/__docusaurus/debug/content',
+    component: ComponentCreator('/startpoint-webdocument/__docusaurus/debug/content', '84a'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/startpoint-webdocument/__docusaurus/debug/globalData',
+    component: ComponentCreator('/startpoint-webdocument/__docusaurus/debug/globalData', '0d5'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/startpoint-webdocument/__docusaurus/debug/metadata',
+    component: ComponentCreator('/startpoint-webdocument/__docusaurus/debug/metadata', '89f'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/startpoint-webdocument/__docusaurus/debug/registry',
+    component: ComponentCreator('/startpoint-webdocument/__docusaurus/debug/registry', 'a67'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    path: '/startpoint-webdocument/__docusaurus/debug/routes',
+    component: ComponentCreator('/startpoint-webdocument/__docusaurus/debug/routes', 'bcb'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    path: '/startpoint-webdocument/blog',
+    component: ComponentCreator('/startpoint-webdocument/blog', '71d'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/startpoint-webdocument/blog/archive',
+    component: ComponentCreator('/startpoint-webdocument/blog/archive', '0dc'),
     exact: true
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
+    path: '/startpoint-webdocument/blog/authors',
+    component: ComponentCreator('/startpoint-webdocument/blog/authors', '2b7'),
     exact: true
   },
   {
-    path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    path: '/startpoint-webdocument/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/startpoint-webdocument/blog/authors/all-sebastien-lorber-articles', 'fd0'),
     exact: true
   },
   {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    path: '/startpoint-webdocument/blog/authors/yangshun',
+    component: ComponentCreator('/startpoint-webdocument/blog/authors/yangshun', '4ea'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    path: '/startpoint-webdocument/blog/first-blog-post',
+    component: ComponentCreator('/startpoint-webdocument/blog/first-blog-post', '622'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
+    path: '/startpoint-webdocument/blog/long-blog-post',
+    component: ComponentCreator('/startpoint-webdocument/blog/long-blog-post', '867'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
+    path: '/startpoint-webdocument/blog/mdx-blog-post',
+    component: ComponentCreator('/startpoint-webdocument/blog/mdx-blog-post', '138'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
+    path: '/startpoint-webdocument/blog/tags',
+    component: ComponentCreator('/startpoint-webdocument/blog/tags', '248'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
+    path: '/startpoint-webdocument/blog/tags/docusaurus',
+    component: ComponentCreator('/startpoint-webdocument/blog/tags/docusaurus', 'cc8'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
+    path: '/startpoint-webdocument/blog/tags/facebook',
+    component: ComponentCreator('/startpoint-webdocument/blog/tags/facebook', '1e7'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
+    path: '/startpoint-webdocument/blog/tags/hello',
+    component: ComponentCreator('/startpoint-webdocument/blog/tags/hello', 'cd9'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
+    path: '/startpoint-webdocument/blog/tags/hola',
+    component: ComponentCreator('/startpoint-webdocument/blog/tags/hola', 'cb0'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
+    path: '/startpoint-webdocument/blog/welcome',
+    component: ComponentCreator('/startpoint-webdocument/blog/welcome', '423'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
+    path: '/startpoint-webdocument/markdown-page',
+    component: ComponentCreator('/startpoint-webdocument/markdown-page', 'f13'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    path: '/startpoint-webdocument/docs',
+    component: ComponentCreator('/startpoint-webdocument/docs', '5fe'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        path: '/startpoint-webdocument/docs',
+        component: ComponentCreator('/startpoint-webdocument/docs', '03e'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            path: '/startpoint-webdocument/docs',
+            component: ComponentCreator('/startpoint-webdocument/docs', '9e7'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
+                path: '/startpoint-webdocument/docs/category/tutorial---basics',
+                component: ComponentCreator('/startpoint-webdocument/docs/category/tutorial---basics', '4e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
+                path: '/startpoint-webdocument/docs/category/tutorial---extras',
+                component: ComponentCreator('/startpoint-webdocument/docs/category/tutorial---extras', '824'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/startpoint-webdocument/docs/intro',
+                component: ComponentCreator('/startpoint-webdocument/docs/intro', '39b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
+                path: '/startpoint-webdocument/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-basics/congratulations', 'f12'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
+                path: '/startpoint-webdocument/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-basics/create-a-blog-post', '7a5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
+                path: '/startpoint-webdocument/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-basics/create-a-document', 'bf8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
+                path: '/startpoint-webdocument/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-basics/create-a-page', '345'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
+                path: '/startpoint-webdocument/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-basics/deploy-your-site', 'aaf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
+                path: '/startpoint-webdocument/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-basics/markdown-features', '0d5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
+                path: '/startpoint-webdocument/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-extras/manage-docs-versions', 'e42'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                path: '/startpoint-webdocument/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/startpoint-webdocument/docs/tutorial-extras/translate-your-site', '727'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -197,8 +197,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/startpoint-webdocument/',
+    component: ComponentCreator('/startpoint-webdocument/', 'c00'),
     exact: true
   },
   {

@@ -5,7 +5,7 @@
   "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-blog-post",
-  "permalink": "/docs/tutorial-basics/create-a-blog-post",
+  "permalink": "/startpoint-webdocument/docs/tutorial-basics/create-a-blog-post",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/lavinou/startpoint-android/tree/main/docs/docs/tutorial-basics/create-a-blog-post.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "permalink": "/startpoint-webdocument/docs/tutorial-basics/create-a-document"
   },
   "next": {
     "title": "Markdown Features",
-    "permalink": "/docs/tutorial-basics/markdown-features"
+    "permalink": "/startpoint-webdocument/docs/tutorial-basics/markdown-features"
   }
 }
