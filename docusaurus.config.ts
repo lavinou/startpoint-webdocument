@@ -17,7 +17,7 @@ const config: Config = {
   // GitHub pages deployment config.
   organizationName: 'lavinou', // Your GitHub org/user name.
   projectName: 'startpoint-webdocument', // Your repo name.
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
