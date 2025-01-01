@@ -12,7 +12,7 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://lavinou.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/startpoint-test/',
+  baseUrl: '/startpoint-android/',
 
   // GitHub pages deployment config.
   organizationName: 'lavinou', // Your GitHub org/user name.
