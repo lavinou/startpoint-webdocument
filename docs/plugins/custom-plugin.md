@@ -97,8 +97,8 @@ val startPoint = rememberStartPoint {
 Once installed, the plugin can be accessed and used to track events as follows:
 
 ```kotlin
-startPoint.plugin(AnalyticsPlugin)?.trackEvent("UserLoggedIn")
-startPoint.plugin(AnalyticsPlugin)?.trackEvent("ButtonClicked")
+startPoint.pluginOrNull(AnalyticsPlugin)?.trackEvent("UserLoggedIn")
+startPoint.pluginOrNull(AnalyticsPlugin)?.trackEvent("ButtonClicked")
 ```
 
 ## Key Points
