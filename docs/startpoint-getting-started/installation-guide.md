@@ -50,7 +50,9 @@ class MainActivity : ComponentActivity() {
 
             // highlight-start
             val startPoint = rememberStartPoint {
-                installAuth(this@MainActivity)
+                install(Plugin) {
+                    myCustomPluginSettings = // custom settings
+                }
             }
             // highlight-end
 
